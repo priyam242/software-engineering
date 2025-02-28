@@ -1,0 +1,58 @@
+question 6
+6. Introduction to Object-Oriented Programming
+Q - 1. Explain the key concepts of Object-Oriented Programming (OOP).
+
+Ans. Four key concepts in object-oriented programming language.
+1. Encapsulation
+2. Abstraction
+3. Inheritance
+4. Polymorphism
+1. Encapsulation : Encapsulates all important information within an object,
+while only exposing select information. This protects the data from external
+interference.
+
+2. Abstraction : Hides unnecessary implementation code, and only reveals
+internal mechanisms that are relevant to other objects. This allows
+developers to avoid repeating the same work multiple times.
+
+3. Inheritance : Allows classes to reuse code and properties from other
+classes.
+
+4. Polymorphism : Allows objects to share behaviors, and take on more
+than one form.
+
+Q - 2. What are classes and objects in C++? Provide an example.
+
+Ans. In C++, classes and objects are fundamental concepts of object oriented programming.
+1. Classes
+2. Object
+1. Classes : A class is a user-defined data type that serves as a blueprint for
+creating objects.
+ex. class student
+{ /* code */};
+
+2. Object : An object is an instance of a class. It contains the data
+(attributes) and can use the methods defined in the class.
+ex. student s1;
+
+Q - 3. What is inheritance in C++? Explain with an example.
+
+Ans. Inheritance in C++ is a feature that allows a class to inherit properties
+and methods from another class, without modifying the original class.
+----> some key concepts about inheritance in C++ :
+1. Base class : The class that is being inherited from.
+2. Derived class : The class that inherites from another class.
+3. Symbol for inheritance : The (:) symbol is used to indicate
+inheritance.
+4. Modes of inheritance : public, private, or protected can be used to
+specify how the inheritance is done.
+
+Q - 4. What is encapsulation in C++? How is it achieved in classes?
+
+Ans. In C++, encapsulation is the process of combining related data and
+functions into a single unit called a class.
+---> To achieve encapsulation in C++ :
+⦁ Declare class variables as private : This prevents outside access to
+the data.
+⦁ Provide public get and set methods : This allows others to read or
+modify the value of a private member.

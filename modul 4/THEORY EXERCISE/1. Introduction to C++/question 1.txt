@@ -1,0 +1,53 @@
+question 1
+1. What are the key differences between Procedural Programming and ObjectOrientedProgramming (OOP)?
+=1.procedural programming:procedural programming is a programming paradigm that involves breaking down a program
+into a series of instructions ,or procedures,that are excuted in order.
+ 2.object oriented programming : is a computer programming styles that organizes software around objects,
+rather than logic and functions . in oop,object are units that contain both data and code , and programs are designed by making them
+out of objects that interarct with each other.
+
+2. List and explain the main advantages of OOP over POP.
+1.security
+2.code maintains
+3.code reusability
+4.polymorephism
+5.inheritance
+6.debugging
+7.data-management
+8.problem solving
+
+3. Explain the steps involved in setting up a C++ development environment.
+1.install complier
+->GCC
+->msvc
+2.install an ide or text editor
+->dev-c++
+->vs
+->codeblocks
+3.configure the environment variables
+4.verify the setup
+#include<iostream>
+using namespace std;
+int main()
+{
+cout<<"Hello";
+return 0;
+}
+
+
+4. What are the main input/output operations in C++? Provide examples.
+->std::cout,
+->std::cin 
+
+#include<iostream>
+using namespace std;
+int main()
+{
+int a;
+cout<<"Enter your age = ";
+cin>>a;
+cout<<"your age = "<<a;
+return 0;
+}
+
+

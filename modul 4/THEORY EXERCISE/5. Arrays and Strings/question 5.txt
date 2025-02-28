@@ -1,0 +1,54 @@
+question 5
+5. Arrays and Strings
+Q - 1. What are arrays in C++? Explain the difference between single dimensional and multi dimensional arrays.
+
+Ans. The array can be defined as a group or collection of similar kinds of
+elements or data items that are stored together in contiguous memory
+spaces. All the memory locations are adjacent to each other, and the
+number of elements in an array is the size of the array.
+
+1. single-dimensional : A One-Dimensional Array is a group of elements
+having the same data type which are stored in a linear arrangement
+under a single variable name.
+
+2. multi-dimensional arrays : In a multi-dimensional array, each
+element in each dimension has the same, fixed size as the other
+elements in that dimension. In a jagged array, which is an array of
+arrays, each inner array can be of a different size. By only using the
+space that's needed for a given array, no space is wasted.
+
+Q - 2. Explain string handling in C++ with examples.
+
+Ans. The string class in C++ provides a more powerful and user-friendly way
+to handle strings. It offers various features such as dynamic sizing, inbuilt
+methods for manipulation, and easy concatenation.
+
+Q - 3. How are arrays initialized in C++? Provide examples of both 1D and 2D arrays.
+
+Ans. Arrays in C++ can be initialized in several ways, depending on their
+type and dimensions. Here's a breakdown of the initialization process for
+1D arrays and 2D arrays:
+
+1. One-Dimensional (1D) Arrays : 1D array is a linear collection of
+elements of the same type.
+ex. 1D array Declered by int arr1[5] = {1,2,3,4,5};
+
+2. Two-Dimensional (2D) Arrays : A 2D array is a matrix-like collection of
+elements arranged in rows and columns.
+ex. 2D array Declered bt int arr1[2][3] = { {1,2,3} , {4,5,6}};
+
+Q - 4. Explain string operations and functions in C++.
+
+Ans. In C++, a string is a sequence of characters stored in a char array. C++
+has a set of string functions and operations.
+---> String can be defined using the string keyword or C-style string .
+ex.string str = "Text" or char str[] = {'T', 'e' , 'x' , 't' , '\0'};
+⦁ String functions
+---> Some common string functions in C++ include:
+#include<string.h>
+⦁ strlen(str1): Finds the length of a string
+⦁ strcpy(str1,str2): Copies the content of one string to another
+⦁ strcat(str1,str2): Appends two strings
+⦁ strcmp(str1,str2): Compares two strings and returns a negative value
+if str1 is less than str2, 0 if they are equal, and a positive value if str1
+is greater than str2

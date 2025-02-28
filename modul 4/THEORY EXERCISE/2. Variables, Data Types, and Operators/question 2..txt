@@ -1,0 +1,93 @@
+question 2
+1. What are the different data types available in C++? Explain with examples.
+=>1.primetive data type
+=>2.non primetive data type
+A.drived data type
+B.user defined data type
+
+
+->1.primetive data 
+->A .integer (int)
+->B.floating point (float)
+   b.double data (double)
+->C.character (char)
+->D.boolan(bool)
+
+
+->2.non primetive data type
+=>1.derived data type
+->A.Array
+->B.function
+->C.pointer
+
+=>2.user define data type
+->A.structhar
+B.unioun
+
+2. Explain the difference between implicit and explicit type conversion in C++.
+
+=>implicit =Also known as type  coercion. this is when the complier automatically changes the data type of a value.
+this happens when the program or language calls for a different type than the one given by the programmer.
+
+=>explicit = also known as type casting,this is when the programmer intentionally changes the data type of a value.the programmer 
+uses built-in function or operators to do this . 
+
+
+3. What are the different types of operators in C++? Provide examples of  each.
+->1.Arthmetic operator
+->2.realtional operator
+->3.logical operator
+->4.assignment operator
+->5.increment or decrement operator
+->6.terronary operator
+
+
+->1.Arthmetic operator
+=>A. Addition (+)
+=>B.subtraction (-)
+=>C. multiplication (*)
+=>D.Division (/)
+=>E.Modulo (%)
+
+
+
+->2.Realtional operator
+=>A.  (==)
+->B. (<)
+->C. (>)
+->D. (!=)
+->E. (>=)
+->F. (<=)
+
+->3.logical operator
+->A.(and operator)   &&
+->B.(or operator) ||
+
+
+->4.Assignment operator
+=>A.  ( = ) 
+->B.  (+=)    
+->c. (*=)
+->D. (/=)
+
+->5.increment or decrement operator
+=>A. (++a) pre increment   
+=>B. (a++) post increment
+=>C.(--a)   pre increment
+=>D.(a--) post decrement
+
+
+->6.ternary operator
+<condition>?true:false;
+
+4. Explain the purpose and use of constants and literals in C++.
+=>constants and literals in c++ represent values that do not changes during program execution. they improve code readability,
+maintainability, and help prevent accidental modification of values
+->1.used to declare variable to not changed the value
+Ex. const int a=10;
+
+->2.literals = used to declare variable fixed values in the code
+Ex.int a=10;
+
+
+

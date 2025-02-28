@@ -1,0 +1,68 @@
+question 4
+4. Functions and Scope
+
+Q - 1. What is a function in C++? Explain the concept of function
+declaration, definition, and calling.
+
+Ans. A function in C++ is a block of code that performs a specific task. and
+function is helpd to organizing code into smaller.
+----> Four types in function.
+1. with return type and with argument
+2. With return type and without argument
+3. without return type and with argument
+4. without return type and without argument
+
+----> Three types of key concepts :
+⦁ declration of function :- First step of Declar of and tell compiler
+about a function's existence before it is used in the program.
+
+⦁ Calling :- The function called and execute the code and function
+called always in main function.
+⦁ definition :- The function definition provides the actual
+implementation of the function.
+
+Q -2. What is the scope of variables in C++? Differentiate between local and global scope.
+
+Ans.The scope of a variable in C++ refers to the region or context within a
+program where the variable is declared and can be accessed.
+
+1. Local scope :- variavle declared inside a function or block have local
+scope. They are acciblity with function or block.
+ex. { int x = 5; /* Local variable */ }
+
+2. Global scope :- variable declared outside any funtion and class have
+global scope. they are acciblety throughout that fuction or block.
+ex. int y = 10; /* Global variable */
+
+Q - 3. Explain recursion in C++ with an example.
+Ans. Recursion is a programming technique where a function calls itself to
+solve smaller instances of the same problem.
+Ex. Factorial Calculation
+The factorial of a number n, denoted as n!,is defind as :
+n!=n×(n−1)×(n−2)×…×1
+
+Q - 4. What are function prototypes in C++? Why are they used?
+Ans. A function prototype is a declaration of a function that specifies the
+function's name, return type, and parameters without providing its
+implementation. It acts as a blueprint or contract, informing the compiler
+about the function's existence and how it should be called.
+
+Syntax of funcation :
+return_type function_name(parameter_list);
+⦁ return type: Specifies the type of value the function will return.
+⦁ function name: The name of the function.
+⦁ parameter list: Specifies the types and optionally the names of
+parameters.
+
+Function prototype Uesd :-
+1. Early Declaration : A function prototype allows the compiler to know
+about a function before its actual implementation is encountered in
+the code. This is especially useful when functions are defined after
+the main() function.
+
+2. Type Checking : The compiler uses the prototype to check that the
+function is called with the correct number and types of arguments.
+
+3. Separation of Declaration and Definition : Enables modular
+programming by separating the function's declaration (in header file)
+form its definition (in a Source file).
