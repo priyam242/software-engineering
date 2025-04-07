@@ -1,0 +1,578 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    text-decoration: none;
+    color: red;  
+}
+#tu
+{
+    font-size: 1.5rem;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 5rem;
+    
+}
+#hori
+{
+    width: 80%;
+    margin-left: 8rem;
+
+}
+#logo 
+{
+    background: none;
+    margin: 1rem 0rem 3rem 0rem;
+}
+header img:hover
+{
+   filter: drop-shadow(0rem 0rem 10px green);
+    transform: scale(1.1);
+    transition: 1s ease;
+    margin-bottom: 1rem;
+
+}
+#navbar {
+    background: none;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 1rem;
+}
+
+#navbar a {
+    background:none;
+    margin-right: 2rem;
+}
+#navbar a:hover
+{
+    filter: drop-shadow(0rem 0rem 2px red);
+    transform: scale(1.5);
+    font-size:30px;
+    transition: 0.6s ease;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid red;
+
+}
+.main-content
+{
+    color: white;
+}
+.main-content:hover
+{
+    text-shadow: 1px 1px 40px rgb(150, 51, 51);
+    font-size: 1.1rem;
+    transform: scale(1.01);
+    transition: 1.2s ease;    
+}
+section {
+    margin: 0rem 5rem;
+}
+.main-content h1 {
+    margin-top: 2rem;
+    width: 550px;
+    color: red;
+}
+.sub-content h1
+{
+   
+    width: 540px;
+    margin-top: 1rem;
+    color: red;    
+}
+.sub-content h2 
+{
+   
+    width: 540px;
+    margin-top: 1rem; 
+    color: red;   
+}
+.btn {
+    background: none;
+    margin: 3rem 0rem 0rem 1.5rem;
+}
+
+.btn a {
+    border: 3px solid red;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    box-shadow: 5px 5px 0px red;
+}
+.btn:hover
+{
+    filter: drop-shadow(0rem 0rem 2rem red);
+    transform: scale(1.01);
+    transition: 1s ease;
+    margin-bottom: 1rem;
+
+}
+.main-image {
+    position: absolute;
+    background: none;
+    right: 14rem;
+    top: 9rem;
+    margin: 2rem 23rem 0rem 6rem;
+    width: 4rem;
+}
+.main-image:hover
+{
+    filter: drop-shadow(0rem 0rem 2rem yellow);
+    transform: scale(1.01);
+    transition: 1s ease;
+    margin-bottom: 1rem;
+
+}
+#main-div
+{
+   position: absolute;
+    text-align: center;
+    display: flex;
+    display: grid;        
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+#div1
+{
+    border: 3px solid red;
+}
+#div1 h1
+{
+    width: 260px;
+    margin-left: 6.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ 
+}
+#div1 h2
+{
+    margin-top: 10px;
+}
+#div2
+{
+    border: 3px solid red;
+   
+}
+#div2 h1
+{
+    width: 300px;
+    margin-left: 3rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#div2 h2
+{
+    margin-top: 10px;
+}
+#div3
+{
+    border: 3px solid red;
+}
+#div3 h1
+{
+    width: 260px;
+    margin-left: 6.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ 
+}
+#div3 h2
+{
+    margin-top: 10px;
+}
+
+#div4
+{
+    border: 3px solid red;
+}
+#div4 h1
+{
+    width: 260px;
+    margin-left: 6.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ 
+}
+#div4 h2
+{
+    margin-top: 10px;
+}
+
+#div5
+{
+    border: 3px solid red;
+}
+#div5 h1
+{
+    width: 260px;
+    margin-left: 4rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ 
+}
+#div5 h2
+{
+    margin-top: 10px;
+}
+
+#div6
+{
+    border: 3px solid red;
+}
+#div6 h1
+{
+    width: 260px;
+    margin-left: 6.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ 
+}
+#div6 h2
+{
+    margin-top: 10px;
+}
+.btn2 {
+    background: none;
+    margin: 3rem 0rem 2rem 1.5rem;
+}
+
+.btn2 a {
+    border: 3px solid red;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    box-shadow: 5px 5px 0px red;
+}
+.btn2:hover
+{
+    filter: drop-shadow(0rem 0rem 2rem red);
+    transform: scale(1.01);
+    transition: 1s ease;
+    margin-bottom: 1rem;
+}
+.h1tag:hover
+{
+    text-shadow: 0.5px 0.5px 1px red;
+    font-size: 2rem;
+    transform: scale(1.01);
+    transition: 1s ease;
+    margin-bottom: 1rem;
+
+}
+#div7
+{
+    border: 3px solid red;
+}
+#div7 h1
+{
+    width: 260px;
+    margin-left: 6.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ 
+}
+#div7 h2
+{
+    margin-top: 10px;
+}
+#div8
+{
+    border: 3px solid red;
+}
+#div8 h1
+{
+    width: 260px;
+    margin-left: 4rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ 
+}
+#div8 h2
+{
+    margin-top: 10px;
+}
+#div9
+{
+    border: 3px solid red;
+}
+#div9 h1
+{
+    width: 260px;
+    margin-left: 6.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ 
+}
+#div9 h2
+{
+    margin-top: 10px;
+}
+
+.sub-image{
+    margin-top: 1rem;
+}
+.sub-image:hover
+{
+    filter: drop-shadow(0rem 0rem 2rem brown); 
+    transform: scale(1.01);
+    transition: 1s ease;
+    margin-top: 1rem;
+
+}
+
+.icon{
+    margin-top: 7rem;
+    color: aliceblue;
+    width: 250px;
+}
+.icon i
+{   font-size: 2rem;
+    margin-left: 1rem;
+    color: white;
+}
+#about
+{
+ 
+    margin-top: 3rem;
+    font-size: 35px;
+    margin-left: 8rem;
+    width: 170px;
+    font-weight: 900;
+    text-shadow: 0.5px 0.5px 1px rgb(106, 237, 18);
+}
+#about p
+{
+
+    color: rgb(106, 237, 18);
+}
+#about p:hover
+{
+    text-shadow: 1px 1px 35px rgb(106, 237, 18);
+    font-size: 2.3rem;
+    transform: scale(1.01);
+    transition: 1s ease;
+
+
+}
+#about2 
+{
+    width: 750px;
+    line-height: 30px;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.icon2
+{
+    margin-top: 3rem;
+    margin-left: 60.5rem;
+    width: 400px;
+
+}
+.icon2 i
+{   
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: white;
+}
+.icon3 
+{   
+    margin-top: 194rem;
+    margin-left: 32rem;
+    margin-bottom: 2rem;
+    width: 550px;
+ 
+}
+
+.icon3 i
+{   
+    font-size: 2rem;
+    margin-left: 4rem;
+    color: white;
+}
+
+#main-div2
+{
+    margin-top: 1rem;
+    height: 400px;
+    width: 868px;
+}
+#about3
+{
+    margin-top: -25.5rem;
+    margin-left: 65rem;
+    font-size: 2rem;
+    width: 200px;
+    font-weight: 900;
+    
+}
+#about3 p
+{
+    color: white;
+    font-size: 30px;
+}
+#about4
+{
+    
+    width: 400px;
+    margin-left: 62rem;
+    margin-top: 2rem;
+    
+}
+#about4 p
+{
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: 900;
+}
+#about5
+{
+
+    width: 200px;
+    margin-top: 5rem;
+    font-size: 30px;
+    margin-left: 7rem;
+    font-weight: 900;
+}
+#about5 p
+{
+    color: white;
+}
+#ptags
+{
+    height: 150px;
+    width: 200px;
+    margin-top: 1rem;
+    line-height: 45px;
+    margin-left: 7.5rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+#main-ptags
+{
+   
+    width: 350px;
+    height: 550px;
+    margin-top: -2rem;
+    margin-left: 6rem;
+    margin-bottom: -2rem;
+
+}
+#extra
+{
+
+   
+    width: 150px;
+    margin-left: 48rem;
+    margin-top: -33rem;
+}
+#extra p
+{
+    text-align: center;
+    font-weight: 900;
+    font-size: 31px;
+    color: white;
+    
+}
+#extra2
+{   
+    width: 400px;
+    font-weight: 900;
+    line-height: 30px;
+    margin-left: 48rem;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+#extra3
+{   
+    width: 400px;
+    font-weight: 900;
+    line-height: 30px;
+    margin-left: 32rem;
+    margin-top: 12rem;
+    font-size: 25px;
+}
+#extra3 p
+{
+    color: white;
+}
+#about3 p:hover
+{
+    text-shadow: 1px 1px 35px white;
+    font-size: 1.9rem;
+    transform: scale(1.01);
+    transition: 1s ease;
+    width: 230px;
+}
+#about5 p:hover
+{
+    text-shadow: 1px 1px 20px white;
+    font-size: 1.9rem;
+    transform: scale(1.01);
+    transition: 1s ease;
+
+
+}
+#extra p:hover
+{
+    text-shadow: 1px 1px 20px white;
+    font-size: 1.9rem;
+    transform: scale(1.01);
+    transition: 1s ease;
+
+
+}
+#sakamoto h1
+{
+    margin-top: 20px;
+    margin-left: 38rem;
+    font-weight: 900;
+}
+#saka
+{
+    margin-left: 15rem;
+    margin-top: 2rem;
+    height: 550px;
+    width: 1000px;
+
+}
+#sakamoto h3
+{
+    margin-top: 1rem;
+    margin-left: 7rem;
+    line-height: 30px;
+    width: 1150px;
+    font-size: 20px;
+}
+#sakamoto h4
+{
+   margin-top: 1rem;
+    margin-left: 7rem;
+    line-height: 30px;
+    width: 1150px;
+    font-size: 18px;
+    color: white;
+}
+#moviesicon
+{
+    
+    margin-top: 2rem;
+    color: aliceblue;
+    width: 350px;
+    margin-left: 72rem;
+    margin-bottom: 1rem;
+}
+#moviesicon i
+{   font-size: 2rem;
+    margin-left: 2rem;
+    color: white;
+}
